@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #14532d;
+  --color-accent: #fbbf24;
+  --color-whatsapp: #1fa855;
+  --color-cream: #fdf8ef;
+  --color-ink: #1c1917;
+  --color-muted: #6b6259;
+  --color-line: #e7dfd2;
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --font-urdu: var(--font-nastaliq), "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+}
+
+/* Nastaliq is tall: headings need extra line height so lines don't collide. */
+[lang="ur"] :is(h1, h2, h3) {
+  line-height: 1.9;
+}
