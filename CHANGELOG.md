@@ -2,6 +2,8 @@
 
 ## 2026-10-21
 
+- Real shop name and Station Road address from the owner's Google Maps listing;
+  the map and directions now search that listing.
 - Created the site: Urdu (`/`) and English (`/en`) static pages, product
   categories, WhatsApp order builder, hours/location with map, floating
   WhatsApp button on mobile.

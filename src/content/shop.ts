@@ -8,7 +8,8 @@ export type Item = { id: string; name: Text };
 export type Category = { id: string; icon: string; name: Text; items: Item[] };
 
 export const shop = {
-  name: { ur: "باندھی جنرل اسٹور", en: "Bandhi General Store" } satisfies Text, // TBC: real board name
+  // From the shop's Google Maps listing (owner-provided link).
+  name: { ur: "حاجی عمردین اینڈ سنز کریانہ اسٹور", en: "Haji Umardin & Sons Karyana Store" } satisfies Text,
   tagline: {
     ur: "روزمرہ کا سودا، ایمانداری کے ساتھ — بیس سال سے زیادہ",
     en: "Everyday groceries, honestly priced — for over 20 years",
@@ -16,10 +17,10 @@ export const shop = {
   whatsapp: "923000000000", // TBC: international format, no + or spaces
   phoneDisplay: "0300 0000000", // TBC
   address: {
-    ur: "مورو روڈ، ریلوے اسٹیشن کے قریب، باندھی، ضلع شہید بینظیرآباد، سندھ",
-    en: "Moro Road, near the Railway Station, Bandhi, Shaheed Benazirabad, Sindh",
+    ur: "اسٹیشن روڈ، ریلوے اسٹیشن کے قریب، باندھی، ضلع شہید بینظیرآباد، سندھ",
+    en: "Station Road, near the Railway Station, Bandhi, Shaheed Benazirabad, Sindh",
   } satisfies Text,
-  mapsQuery: "Bandhi Railway Station, Bandhi, Sindh, Pakistan", // TBC: drop a pin and use exact coordinates
+  mapsQuery: "Haji Umardin & Sons Karyana Store, Station Road, Bandhi", // Maps listing (plus code H8P2+H58)
   hours: {
     ur: "روزانہ صبح 8 بجے سے رات 10 بجے تک",
     en: "Open daily, 8 am – 10 pm",

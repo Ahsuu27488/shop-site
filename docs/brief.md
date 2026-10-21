@@ -16,10 +16,10 @@ Not a paid client job.
 ## To confirm with the owner [TBC]
 
 All in `src/content/shop.ts`:
-- Real shop name (board name) — placeholder: "Bandhi General Store".
+- ~~Real shop name~~ — done: "Haji Umardin & Sons Karyana Store", Station Road (from Maps).
 - WhatsApp number and phone display.
 - Exact opening hours, delivery areas and minimum order.
-- Exact map pin (coordinates) instead of the station search.
+- ~~Exact map pin~~ — done: the Maps listing name (plus code H8P2+H58).
 - Real photos of the shop (inside/outside) to replace emoji icons.
 
 ## Known design debt

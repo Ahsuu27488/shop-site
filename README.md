@@ -1,4 +1,4 @@
-# Bandhi General Store — bilingual grocery website
+# Haji Umardin & Sons Karyana Store — bilingual grocery website
 
 A fast, mobile-first website for a family grocery (kiryana) store in Bandhi,
 Sindh, Pakistan. Customers pick items, set quantities and send the list on
